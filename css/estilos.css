@@ -1,0 +1,88 @@
+.Bienvenido{
+    height: 0px;
+    color: white;
+}
+.fondo1{
+    width: 200px;
+    height: 750px;
+    border: none;
+}
+body{
+    background-color: powderblue;
+}
+#principal{
+    width: 900px;
+    height: 120px;
+    border: 1px solid #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+header{
+    width: 900px;
+    height: 120px;
+    border: 1px solid #000;
+}
+#logo{
+    width: 300px;
+    height: 100px;
+    border:none;
+    float: left;
+}
+.menu{
+    width: 300px;
+    height: 40px;   
+    font-size: 18px;
+    float: right;
+    margin-top: 30px;
+}
+.menu ul li{
+    list-style:none;
+    float: right;
+}
+
+.menu ul li a{
+   
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #000;
+}
+a:hover{
+    background-color: #006699;
+    border-radius: 5px;
+}
+#imagen{
+    margin-top: 10px;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+#estados{
+   width: 900px;
+   height: auto; overflow: hidden;
+   border: 1px solid;
+   margin-top: 50px;
+}
+.uno{
+    width: 290px;
+    height: auto; overflow: hidden;
+    border: 1px solid;
+    margin-top: 10px;
+    float: left;
+}
+.dos{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.leer-mas{
+    text-decoration: none;
+    border: 1px solid #006699;
+    padding: 10px 15px 10px 15px;
+}
+#imagen:hover .efecto{
+    transition:all .5s ease-in-out;
+    -webkit-transform:scale(1.1);transform:scale(1.1);    
+    overflow:hidden;
+    cursor: pointer;
+}
+
